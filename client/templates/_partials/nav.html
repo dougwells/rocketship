@@ -18,8 +18,18 @@
                     <li><a href="{{pathFor 'homeContact'}}">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        {{#if isInRole 'Administrator'}}
+                            <a href="#">Admin</a>
+                        {{/if}}
+                    </li>
+
                     {{> loginButtons}} <!-- here -->
                 </ul>
+                {{#if isInRole 'admin'}}
+                    {{> admin_nav}}
+                {{/if}}
+
             </div><!--/.nav-collapse -->
         </div>
     </nav>
