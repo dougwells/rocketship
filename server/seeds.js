@@ -174,7 +174,7 @@ var productSeeds = [
 if (Products.find().count() ===0){
     for(var i= 0; i<productSeeds.length; i++) {
         Products.insert(productSeeds[i]);
-        console.log("Inserted " + productSeeds[i].sku);
+        console.log("Inserted product" + productSeeds[i].sku);
     }
 }
 
@@ -189,4 +189,32 @@ if(Meteor.users.find().count() === 0){
 
     Roles.addUsersToRoles(id, ["Administrator"]);
     console.log("Added Admin user...");
+}
+
+if(Vendors.find().count()===0) {
+    var vendors = [
+        {
+            id: 1,
+            slug: "martian-armaments",
+            name: "Martian Armaments, Ltd",
+            description: "Purveyor of fine astronimical bits of warfare, specializing in Martian military needs."
+        },
+        {
+            id: 2,
+            slug: "red-planet",
+            name: "Red Planet Love Machine",
+            description: "Bringing you closer to the ones you love, whatever planet you're from."
+        },
+        {
+            id: 3,
+            slug: "marinaris",
+            name: "Marinaris Outfitters",
+            description: "Get out and get fit on Mars! Marinaris will make sure you look good in red."
+        }
+    ];
+
+    for (var i = 0; i < vendors.length; i++) {
+        Vendors.insert(vendors[i]);
+        console.log("Inserted vendor ", vendors[i].name);
+    }
 }
