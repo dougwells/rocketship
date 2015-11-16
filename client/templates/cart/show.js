@@ -23,6 +23,9 @@ Template.cartShow.events({
             }
         });
     },
+    "click #checkout" : function(){
+
+    },
 
     "change .item-qty" : function(ev){
         var rawValue = $(ev.currentTarget).val();
