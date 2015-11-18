@@ -14,12 +14,6 @@ Template.cartShow.events({
         removeFromCart(this.sku, function(err,res){
             if(err){
                 console.log(err);
-            //}else{
-            //    //any items left?
-            //    console.log("Cart items remaining ", currentCart.items.length);
-            //    if(currentCart.items.length === 0){
-            //        Router.go("homeIndex");
-            //    }
             }
         });
     },
