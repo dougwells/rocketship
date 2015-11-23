@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0568dc6f-b900-4cff-9066-13941336387e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/cart/show.html" afterPath="$PROJECT_DIR$/client/templates/cart/show.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rocket-shop.iws" />
@@ -36,7 +35,7 @@
       <file leaf-file-name="show.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/templates/cart/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6213018">
+            <state vertical-scroll-proportion="0.62376237">
               <caret line="21" column="119" selection-start-line="21" selection-start-column="119" selection-end-line="21" selection-end-column="119" />
               <folding />
             </state>
@@ -517,9 +516,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1363" height="877" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33052886" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -900,7 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/cart/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6213018">
+        <state vertical-scroll-proportion="0.62376237">
           <caret line="21" column="119" selection-start-line="21" selection-start-column="119" selection-end-line="21" selection-end-column="119" />
           <folding />
         </state>
