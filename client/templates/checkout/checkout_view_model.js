@@ -101,8 +101,8 @@ CheckoutViewModel = function(args){
         //call to processCharge
         processPayment(checkout,function(err,res){
             if(res.success){
-                //console.log(res);
-                Router.go("receiptShow", {id: res.receipt_id});
+                console.log(res);
+                //Router.go("receiptShow", {id: res.receipt_id});
             }else{
                 sAlert.error(res.message);
             }
